@@ -36,12 +36,9 @@ cd RN.Ai-Predict
 Using a virtual environment is highly recommended.
 
 ```bash
-# Create and activate the virtual environment
-uv venv
-source .venv/bin/activate
-
 # Install required packages
 uv sync
+source .venv/bin/activate
 ```
 
 ---
