@@ -1,6 +1,0 @@
-tensorflow
-numpy
-pandas
-biopython
-scikit-learn
-simple-term-menu
