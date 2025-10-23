@@ -1,0 +1,14 @@
+[project]
+name = "rn-ai-predict"
+version = "0.1.0"
+description = "Predicts relative efficacy of siRNA"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "tensorflow",
+    "numpy",
+    "pandas",
+    "biopython",
+    "scikit-learn",
+    "simple-term-menu",
+]

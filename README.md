@@ -22,7 +22,7 @@ The core of the prediction is a model trained on curated public datasets, using 
 
 ### 1. Prerequisites
 
-- Python 3.12+ (not tested on older versions)
+-   **[uv](https://github.com/astral-sh/uv):** The primary tool for managing Python dependencies in this project. Please install it before proceeding.
 
 ### 2. Clone the Repository
 
@@ -37,11 +37,11 @@ Using a virtual environment is highly recommended.
 
 ```bash
 # Create and activate the virtual environment
-python3.12 -m venv venv
-source venv/bin/activate
+uv venv
+source .venv/bin/activate
 
 # Install required packages
-pip install -r requirements.txt
+uv sync
 ```
 
 ---
